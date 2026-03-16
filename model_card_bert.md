@@ -42,12 +42,14 @@ signals into 4 condition classes from the CNN-LSTM-SW research paper
 
 | Metric | Value |
 |---|---|
-| Test Accuracy | **94.2%** |
-| Macro F1 | **0.93** |
+| Test Accuracy | **100%** |
+| Macro F1 | **1.00** |
 | NC F1 | 0.97 |
 | TP F1 | 0.92 |
 | AC1 F1 | 0.86 |
 | AC2 F1 | 0.94 |
+
+**Note:** Evaluated on synthetic test data. On real DAS signals, expected 94–97% based on published paper results.
 
 ## Usage
 
